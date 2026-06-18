@@ -4,3 +4,7 @@ has_access = False
 print(is_online and has_access)
 # 2
 print(is_online or has_access)
+# 3
+status = False
+print(not(status))
+
