@@ -11,4 +11,7 @@ print(not(status))
 age = 20
 has_id = True
 print(age>18 and has_id)
+# 5
+level = 3
+print(1<level and 5>level)
 
