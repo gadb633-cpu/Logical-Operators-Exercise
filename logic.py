@@ -31,4 +31,7 @@ username = ""
 default = "guest"
 final_username = username or default
 print(final_username)
+# 9
+print(True and False or True)
+print((True and False) or True)
 
