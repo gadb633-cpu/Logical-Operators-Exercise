@@ -21,4 +21,10 @@ c = ""
 print(bool(a))
 print(bool(b))
 print(bool(c))
+# 7
+x = None
+y = 42
+print(x or y)
+# Value 42 returned because None is nothing.
+# 8
 
