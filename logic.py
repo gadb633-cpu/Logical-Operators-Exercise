@@ -34,4 +34,7 @@ print(final_username)
 # 9
 print(True and False or True)
 print((True and False) or True)
+# 10
+score = 75
+print(score>60 and score<100)
 
