@@ -27,4 +27,8 @@ y = 42
 print(x or y)
 # Value 42 returned because None is nothing.
 # 8
+username = ""
+default = "guest"
+final_username = username or default
+print(final_username)
 
