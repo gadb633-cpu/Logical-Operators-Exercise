@@ -14,4 +14,11 @@ print(age>18 and has_id)
 # 5
 level = 3
 print(1<level and 5>level)
+# 6
+a = 0
+b = "hello"
+c = ""
+print(bool(a))
+print(bool(b))
+print(bool(c))
 
