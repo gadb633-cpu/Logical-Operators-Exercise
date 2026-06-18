@@ -7,4 +7,8 @@ print(is_online or has_access)
 # 3
 status = False
 print(not(status))
+#4
+age = 20
+has_id = True
+print(age>18 and has_id)
 
