@@ -24,10 +24,7 @@ print(bin(a | b))
 # 3 
 x = True
 y = False
-print(x and y)
-print(x or y)
-print(not(x))
-print(not(y))
+print((x or y) and not (x and y))
 # 4
 num = 8
 print(num << 1)
