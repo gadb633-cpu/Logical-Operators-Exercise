@@ -21,6 +21,15 @@ b = 10
 print(a & b , a | b)
 print(bin(8))
 print(bin(14))
+# 3 
+x = True
+y = False
+print(x and y)
+print(x or y)
+print(not(x))
+print(not(y))
+
+
 
 
 
