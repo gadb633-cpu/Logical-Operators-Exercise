@@ -19,8 +19,8 @@ print(a ^ b)
 a = 12
 b = 10
 print(a & b , a | b)
-print(bin(8))
-print(bin(14))
+print(bin(a & b))
+print(bin(a | b))
 # 3 
 x = True
 y = False
@@ -28,6 +28,14 @@ print(x and y)
 print(x or y)
 print(not(x))
 print(not(y))
+# 4
+num = 8
+print(num << 1)
+print(num >> 1)
+print(bin(num << 1))
+print(bin(num >> 1))
+
+
 
 
 
